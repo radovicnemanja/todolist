@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #717171;
+    -webkit-font-smoothing: antialiased;
+    background-color: #F7F7F7;
+}
+
+header {
+    background-color: #25313e;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.main-header .navbar-brand {
+    color: #adbece;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+.nav .avatar {
+    width: 30px;
+    margin-top: -5px;
+    margin-right: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    display: block;
+    border-radius: 500px;
+    white-space: nowrap;
+}
+
+.avatar img {
+    border-radius: 500px;
+}
+
+.nav > li > a {
+    color: #adbece;
+    font-size: 13px;
+    position: relative;
+    display: block;
+    padding: 15px 15px;
+}
+
+.navbar-right {
+    margin: 0 !important;
+}
+
+.badge.up {
+    position: relative;
+    top: -10px;
+    padding: 3px 6px;
+}
+
+.bg-danger {
+    background-color: #fb6b5b;
+    color: #ffffff;
+}
+
+.hbox > aside, .hbox > section {
+    padding: 0 !important;
+}
+
+.hbox > aside, .hbox > section {
+    display: table-cell;
+    vertical-align: top;
+    height: 100%;
+    padding: 0;
+    float: none;
+}
+
+.b-l {
+    border-left: 1px solid #cfcfcf;
+}
+
+.b-r {
+    border-right: 1px solid #cfcfcf;
+}
+
+.aside-xl {
+    width: 300px;
+}
+
+.hbox {
+    display: table;
+    table-layout: fixed;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.vbox {
+    display: table;
+    border-spacing: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.app .hbox.stretch {
+    height: 100%;
+}
+
+.vbox.flex > section {
+    display: table-row;
+    height: 100%;
+}
+
+.app .vbox.flex > section > section {
+    overflow: auto;
+}
+
+.vbox.flex > section > section {
+    position: relative;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.vbox.flex > section > section > section {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.padder {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.list-group-item.active {
+    color: #fff;
+    /*border-color: #65bd77 !important;*/
+    /*background-color: #65bd77 !important;*/
+    border-color: #f0ad4e; !important;
+    background-color: #e2a14c; !important;
+
+}
+.list-group-item-true {
+    color: #fff;
+    border-color: #65bd77 !important;
+    background-color: #65bd77 !important;
+}
+
+.list-group-sp .list-group-item {
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+#task-list li {
+    cursor: pointer;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: 0.2;
+}
+
+.no-touch .hover-action {
+    display: none;
+}
+
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+}
+
+#task-list .task-name, #task-list .task-desc {
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#task-list .task-desc {
+    height: 16px;
+    font-size: 11px;
+}
+
+.list-group-item.active .text-muted {
+    color: #d0ebd6;
+}
+
+.b-b {
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.paper {
+    position: relative;
+    background: -webkit-linear-gradient(top, #f0f0f0 0%, white 5%) 0 0;
+    background: -moz-linear-gradient(top, #f0f0f0 0%, white 5%) 0 0;
+    background: linear-gradient(top, #f0f0f0 0%, white 5%) 0 0;
+    -webkit-background-size: 100% 30px;
+    -moz-background-size: 100% 30px;
+    -ms-background-size: 100% 30px;
+    background-size: 100% 30px;
+    margin-right: 15px;
+    border: 1px solid #cfcfcf;
+    border-left: none;
+    border-top: none;
+}
+
+.paper textarea {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    padding: 30px 0 0 55px;
+    line-height: 30px;
+    min-height: 540px;
+}
+
+.app .vbox > section, .app .vbox > footer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.scrollable {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.paper:before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    top: 0;
+    left: 39px;
+    bottom: 0;
+    border-left: 1px solid #F9D3D3;
+}
+
+.btn-dark {
+    color: #fff !important;
+    background-color: #2e3e4e;
+    border-color: #2e3e4e;
+}
+
+.pull-right {
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.todolisttxt {
+    padding-left: 15px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #cac8c8;
+}
+
+.btn-secondary {
+    width: 50%;
+}
+
+.checked {
+    margin: 0!important;
+    position: absolute;
+    right: 30px;
+    top: 14px;
+}
+.form-control:focus {
+    box-shadow: none!important;
+}
+
+.done-true {
+    text-decoration: line-through;
+
+}
